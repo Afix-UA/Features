@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240927165642">
+	<link rel="stylesheet" href="css/style.min.css?_v=20250422214830">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +17,16 @@
 		<header data-scroll-show="300" class="header">
 			<div class="header__container">
 				<div class="header__logo-box">
-					<img src="img/logo.svg" alt="logo" class="header__logo">
+					<a href="index.html"><img src="img/logo.svg" alt="logo" class="header__logo"></a>
 				</div>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">FEATURES</a></li>
-							<li class="menu__item"><a href="" class="menu__link">BLOG</a></li>
-							<li class="menu__item"><a href="" class="menu__link">COMPANY</a></li>
+							<li class="menu__item"><a href="index.html" class="menu__link">FEATURES</a></li>
+							<li class="menu__item"><a href="blog.html" class="menu__link">BLOG</a></li>
+							<li class="menu__item"><a href="about.html" class="menu__link">COMPANY</a></li>
 							<li class="menu__item"><a href="" class="menu__link">MORE</a></li>
-							<li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+							<li class="menu__item"><a href="contact.html" class="menu__link">CONTACT</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -38,11 +38,11 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__hero hero">
+			<section id="hero" class="page__hero hero">
 				<div class="hero__container">
 					<div class="hero__body">
 						<div class="hero__content content-hero">
-							<h1 class="content-hero__title title">
+							<h1 class="content-hero__title title title--big">
 								<mark>One</mark> Payment
 								Card for all
 							</h1>
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__reviews reviews">
+			<section id="reviews" class="page__reviews reviews">
 				<div class="reviews__container">
 					<h6 class="reviews__label label">WHAT THEY SAY ABOUT MONOPAY</h6>
 					<h2 class="reviews__title title"><mark>98%</mark> Customer Satisfaction</h2>
@@ -150,7 +150,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="page__exclusive exclusive">
+			<section id="exclusive" class="page__exclusive exclusive">
 				<div class="exclusive__container">
 					<h6 class="exclusive__label label">EXCLUSIVE FEATURES </h6>
 					<h2 class="exclusive__title title"><mark>Top</mark> Monopay Features</h2>
@@ -234,7 +234,7 @@
 						</li>
 					</ul>
 			</section>
-			<section class="page__advantages advantages">
+			<section id="cashflow" class="page__advantages advantages">
 				<div class="advantages__container">
 					<div class="advantages__content">
 						<h6 class="advantages__label label">NO HIDDEN FEES</h6>
@@ -294,7 +294,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__advantages advantages advantages--reverse">
+			<section id="pay" class="page__advantages advantages advantages--reverse">
 				<div class="advantages__container">
 					<div class="advantages__content">
 						<h6 class="advantages__label label">STRONG SECURITY</h6>
@@ -355,7 +355,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__work work">
+			<section id="work" class="page__work work">
 				<div class="work__container">
 					<h6 class="work__label label">NO FEES OR INTEREST?</h6>
 					<h2 class="work__title title"><mark>How</mark> does it work?</h2>
@@ -370,7 +370,8 @@
 									Purchased</h6>
 							</div>
 							<div class="item-work__text">
-								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod tempor utla bore.</p>
+								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod
+									tempor utla bore.</p>
 							</div>
 						</li>
 						<li class="work__item item-work">
@@ -379,7 +380,8 @@
 									Monocard</h6>
 							</div>
 							<div class="item-work__text">
-								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod tempor utla bore.</p>
+								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod
+									tempor utla bore.</p>
 							</div>
 						</li>
 						<li class="work__item item-work">
@@ -389,7 +391,8 @@
 									Donations</h6>
 							</div>
 							<div class="item-work__text">
-								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod tempor utla bore.</p>
+								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod
+									tempor utla bore.</p>
 							</div>
 						</li>
 						<li class="work__item item-work">
@@ -398,10 +401,100 @@
 									and Investor</h6>
 							</div>
 							<div class="item-work__text">
-								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod tempor utla bore.</p>
+								<p>Lorem ipsum dolor sit amet jamet, consectetu adipiscing elit, sed dodol eiusmod
+									tempor utla bore.</p>
 							</div>
 						</li>
 					</ul>
+				</div>
+			</section>
+			<section id="cashback" class="page__cashback cashback">
+				<div class="cashback__container">
+					<div class="cashback__body">
+						<div class="cashback__content">
+							<h2 class="cashback__title">Download today
+								and get 2% Cashback </h2>
+							<div class="cashback__text">
+								<p>Monopay available on Apple App Store and Google Play Store.</p>
+							</div>
+							<div class="cashback__action">
+								<button class="cashback__button button _icon-logo-btn">GET MONOPAY</button>
+								<a href="#" class="cashback__link-download"><img class="ibg--contain" src="img/icons/app_store.svg" alt="Image"></a>
+								<a href="#" class="cashback__link-download"><img class="ibg--contain" src="img/icons/google_play.svg" alt="Image"></a>
+							</div>
+						</div>
+						<div class="cashback__images">
+							<img src="img/cashback/app-card.webp" alt="Bg" class="cashback__bg">
+							<!-- Оболонка слайдера -->
+							<div class="cashback__slider swiper">
+
+								<!-- Частина слайдера, що рухається -->
+								<div class="cashback__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="cashback__slide swiper-slide">
+										<img src="img/cashback/monocard-1.webp" alt="Image">
+									</div>
+									<div class="cashback__slide swiper-slide">
+										<img src="img/cashback/monocard-2.webp" alt="Image">
+									</div>
+								</div>
+								<!-- Якщо потрібна пагінація -->
+								<div class="cashback-pagination swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="forget" class="page__forget forget">
+				<div class="forget__container">
+					<div class="forget__body">
+						<div class="forget__card card-forget">
+							<article class="card-forget__body">
+								<div class="card-forget__images">
+									<img class="ibg" src="img/forget/01.webp" alt="Image">
+								</div>
+								<div class="card-forget__content">
+									<h3 class="card-forget__title">Forget to bring your card? Just use the Monopay
+										App
+									</h3>
+									<div class="card-forget__text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											ncididunt
+											ut
+											labore et dolore magna aliqu Ut enim ad minim veniam, quis nostrudLorem
+											ipsum
+											dolor
+											sit amet, consectetur adipiscing elit, sed do eiusmod ncididunt ut labore et
+											dolore
+											magna aliqu Ut enim ad minim veniam, quis nostrud...</p>
+									</div>
+									<a href="#" class="card-forget__link link _icon-arrow-right">Continue reading</a>
+								</div>
+
+								<div class="card-forget__action">
+									<span class="card-forget__line"></span>
+									<button class="card-forget__button button">BROWSE ARTICLES</button>
+								</div>
+							</article>
+						</div>
+						<ul class="forget__items items-forget">
+							<li class="items-forget__item item-forget">
+								<div class="item-forget__images">
+									<img class="ibg ibg--top" src="img/forget/02.webp" alt="Image">
+								</div>
+								<h3 class="item-forget__title item-forget__title--sage">How can we provide credit with no interest?</h3>
+								<a href="#" class="item-forget__link link _icon-arrow-right">Learn more</a>
+							</li>
+							<li class="items-forget__item item-forget">
+								<div class="item-forget__images">
+									<img class="ibg ibg--top" src="img/forget/03.webp" alt="Image">
+								</div>
+								<h3 class="item-forget__title">No more cash, just digital and personal wallet</h3>
+								<a href="#" class="item-forget__link link _icon-arrow-right">Learn more</a>
+							</li>
+						</ul>
+
+					</div>
 				</div>
 			</section>
 		</main>
@@ -435,14 +528,14 @@
 								<summary data-spoller-close class="spollers__title">COMPANY</summary>
 								<div class="spollers__body">
 									<ul class="spollers__list footer-menu">
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">About Monopay</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Vision and Mission</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Our Team Members</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Partner and Investor</a></li>
+										<li class="footer-menu__item"><a href="about.html#a-hero" class="footer-menu__link">About Monopay</a></li>
+										<li class="footer-menu__item"><a href="about.html#a-mission-vision" class="footer-menu__link">Vision and Mission</a></li>
+										<li class="footer-menu__item"><a href="about.html#a-founders" class="footer-menu__link">Our Team Members</a></li>
+										<li class="footer-menu__item"><a href="about.html#a-source" class="footer-menu__link">Partner and Investor</a></li>
 									</ul>
 								</div>
 							</details>
-							<details class="spollers__item">
+							<details class="spollers__item" style="display: none;">
 								<summary data-spoller-close class="spollers__title">BLOG</summary>
 								<div class="spollers__body">
 									<ul class="spollers__list footer-menu">
@@ -458,12 +551,12 @@
 								<summary data-spoller-close class="spollers__title">FEATURES</summary>
 								<div class="spollers__body">
 									<ul class="spollers__list footer-menu">
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Secure Payment</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Daily Cashback</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Auto Cashflow</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Scan and Pay</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Monocard</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Wallet</a></li>
+										<li class="footer-menu__item"><a href="index.html#hero" class="footer-menu__link">Secure Payment</a></li>
+										<li class="footer-menu__item"><a href="index.html#reviews" class="footer-menu__link">Daily Cashback</a></li>
+										<li class="footer-menu__item"><a href="index.html#pay" class="footer-menu__link">Auto Cashflow</a></li>
+										<li class="footer-menu__item"><a href="index.html#work" class="footer-menu__link">Scan and Pay</a></li>
+										<li class="footer-menu__item"><a href="index.html#cashback" class="footer-menu__link">Monocard</a></li>
+										<li class="footer-menu__item"><a href="index.html#forget" class="footer-menu__link">Wallet</a></li>
 									</ul>
 								</div>
 							</details>
@@ -471,12 +564,12 @@
 								<summary data-spoller-close class="spollers__title">CONTACT</summary>
 								<div class="spollers__body">
 									<ul class="spollers__list footer-menu">
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Contact Us</a></li>
-										<li class="footer-menu__item"><a href="#" class="footer-menu__link">Contact Support</a></li>
+										<li class="footer-menu__item"><a href="../contact.html#c-hero" class="footer-menu__link">Contact Us</a></li>
+										<li class="footer-menu__item"><a href="../contact.html#c-feedback" class="footer-menu__link">Contact Support</a></li>
 									</ul>
 								</div>
 							</details>
-							<details data-spoller-close class="spollers__item">
+							<details data-spoller-close class="spollers__item" style="display: none;">
 								<summary class="spollers__title">LEGAL</summary>
 								<div class="spollers__body">
 									<ul class="spollers__list footer-menu">
@@ -496,7 +589,7 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20240927165642"></script>
+	<script src="js/app.min.js?_v=20250422214830"></script>
 </body>
 
 </html>
